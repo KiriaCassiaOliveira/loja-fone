@@ -26,6 +26,10 @@
   .description-product > .item.-last {
     margin-bottom: 70px;
   }
+    
+  .description-product > .text.-more{
+    margin-bottom: 0;
+  }
   
   .description-product .contrast {
     text-transform: uppercase;
