@@ -9,3 +9,16 @@
     bottom: 0;
     transform: translateY(calc(100% + 98px));
 }
+@media(max-width:1326px) {
+    .wrap-product{
+        width: 100%;
+    }
+    .wrap-product >.buttons{
+        position: static;
+        width: 50%;
+        min-width: 655px;
+        margin: 0 auto 60px;
+        text-align: center;
+        transform: none;
+    }
+}
