@@ -7,15 +7,11 @@ const $heart = window.document.querySelector(".-heart");
 $heart.addEventListener("click", handleClick);
 
 function handleClick(){
-    console.log("oi");
-}
-
-/*evento adicionar no carrinho*/
-
-const $second = window.document.querySelector(".-second");
-
-$second.addEventListener("click", handleClick);
-
-function handleClick(){
-    console.log("adicionar ao carrinho");
+    // if($heart.classList.contains("-active")){
+    //     $heart.classList.remove("-active");
+    // }
+    // else{
+    //     $heart.classList.add("-active");
+    // }
+    $heart.classList.toggle("-active");
 }
